@@ -67,7 +67,7 @@ const componentV3 = async file => {
 
   try {
     response = await v3Client.send(
-      new DetectTextCommand({ Image: { Bytes: file } })
+      new DetectTextCommand({ Image: { Bytes: new Uint8Array(file) } })
     );
   } catch (e) {
     error = e;
