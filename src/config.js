@@ -1,4 +1,4 @@
 module.exports = {
   REGION: "us-west-2",
-  IDENTITY_POOL_ID: "us-west-2:ceede5e9-606a-4e78-bd37-897034d1f9c7"
+  IDENTITY_POOL_ID: "us-west-2:110518e8-d8cf-41b7-9db5-10c659829109"
 };
