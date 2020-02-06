@@ -35,10 +35,9 @@
     "*.{js,css,json,md}": "prettier --write"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity": "^1.0.0-alpha.11",
-    "@aws-sdk/client-dynamodb": "^1.0.0-alpha.11",
-    "@aws-sdk/client-pinpoint": "^1.0.0-alpha.12",
-    "@aws-sdk/credential-provider-cognito-identity": "^1.0.0-alpha.9",
+    "@aws-sdk/client-cognito-identity": "^1.0.0-alpha.16",
+    "@aws-sdk/client-pinpoint": "^1.0.0-alpha.14",
+    "@aws-sdk/credential-provider-cognito-identity": "^1.0.0-alpha.14",
     "aws-sdk": "^2.609.0"
   }
 }
