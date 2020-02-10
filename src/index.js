@@ -47,7 +47,7 @@ const componentV2 = async file => {
       .putObject({
         Body: "Anything works",
         Bucket: "analytics3d5167b766084a44803d0ccb49a6eb66-devoa",
-        Key: "public/Name that has space.txt"
+        Key: "public/Name that has (Parenthesis).txt"
       })
       .promise();
   } catch (e) {
@@ -56,7 +56,7 @@ const componentV2 = async file => {
 
   document.body.appendChild(
     getHTMLElement(
-      "Data returned by v2: with space",
+      "Data returned by v2: with Parenthesis",
       JSON.stringify(error || response, null, 2)
     )
   );
@@ -69,7 +69,7 @@ const componentV2 = async file => {
       .putObject({
         Body: "Anything works",
         Bucket: "analytics3d5167b766084a44803d0ccb49a6eb66-devoa",
-        Key: "public/NameThatHasNoSpace1.txt"
+        Key: "public/NameThatHasNoParenthesis.txt"
       })
       .promise();
   } catch (e) {
@@ -77,7 +77,7 @@ const componentV2 = async file => {
   }
   document.body.appendChild(
     getHTMLElement(
-      "Data returned by v2: without space",
+      "Data returned by v2: without Parenthesis",
       JSON.stringify(error || response, null, 2)
     )
   );
@@ -111,7 +111,7 @@ const componentV3 = async file => {
       new PutObjectCommand({
         Body: "Anything works",
         Bucket: "analytics3d5167b766084a44803d0ccb49a6eb66-devoa",
-        Key: "public/Name that has space.txt"
+        Key: "public/Name that has (Parenthesis).txt"
       })
     );
   } catch (e) {
@@ -120,7 +120,7 @@ const componentV3 = async file => {
 
   document.body.appendChild(
     getHTMLElement(
-      "Data returned by v3: with space",
+      "Data returned by v3: with Parenthesis",
       JSON.stringify(error || response, null, 2)
     )
   );
@@ -134,7 +134,7 @@ const componentV3 = async file => {
       new PutObjectCommand({
         Body: "Anything works",
         Bucket: "analytics3d5167b766084a44803d0ccb49a6eb66-devoa",
-        Key: "public/NameThatHasNoSpace.txt"
+        Key: "public/NameThatHasNoParenthesis.txt"
       })
     );
   } catch (e) {
@@ -142,7 +142,7 @@ const componentV3 = async file => {
   }
   document.body.appendChild(
     getHTMLElement(
-      "Data returned by v3: without space",
+      "Data returned by v3: without Parenthesis",
       JSON.stringify(error || response, null, 2)
     )
   );
