@@ -44,11 +44,11 @@
     "@aws-crypto/sha256-js": "1.0.0-alpha.0"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity": "^1.0.0-alpha.18",
-    "@aws-sdk/client-s3": "^1.0.0-alpha.13",
-    "@aws-sdk/credential-provider-cognito-identity": "^1.0.0-alpha.16",
-    "@aws-sdk/s3-request-presigner": "^1.0.0-alpha.12",
-    "@aws-sdk/util-create-request": "^1.0.0-alpha.9",
+    "@aws-sdk/client-cognito-identity": "^1.0.0-alpha.21",
+    "@aws-sdk/client-s3": "^1.0.0-alpha.16",
+    "@aws-sdk/credential-provider-cognito-identity": "^1.0.0-alpha.19",
+    "@aws-sdk/s3-request-presigner": "^1.0.0-alpha.15",
+    "@aws-sdk/util-create-request": "^1.0.0-alpha.11",
     "@aws-sdk/util-format-url": "^1.0.0-alpha.4",
     "aws-sdk": "^2.609.0"
   }
